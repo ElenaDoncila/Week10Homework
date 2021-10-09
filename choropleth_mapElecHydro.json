@@ -4,7 +4,7 @@
   "width": 800,
   "height": 500,
   "data": {
-    "url": "https://raw.githubusercontent.com/stingyblingy/Week9Homework/main/global.topojson",
+    "url": "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/global.topojson",
     "format": {"type": "topojson", "feature": "global.geo"}
   },
   "projection": {"type": "equalEarth"},
@@ -25,7 +25,7 @@
           "lookup": "properties.name",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/stingyblingy/Week9Homework/main/Country_data.csv"
+              "url": "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/Country_data.csv"
             },
             "key": "CountryName",
             "fields": ["Electricity-fromfossilfuels"]
