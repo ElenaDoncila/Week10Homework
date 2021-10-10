@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 
   <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="style.css" media="all">
 
 
 </head>
@@ -26,36 +26,28 @@
    <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1>Multiple Visualisations</h1>
-        <p>This page demonstrates how you can use pure.css grid for your layout.</p>
+        <h1>WOLRD USAGE OF ELECTRICITY FROM FOSSIL FUEL AND CARBON DIOXIDE EMISSIONS AS A RESULT OF ELECTRICY CONSUMPTION</h1>
+        <p>Below are two visualisations which show the global usage of electricity sourced from fossil fuels and the relationship between GDP and tonnes of carbon dioxide emissions as a result of electricity consumption.</p>
       </div>
     </div>
   <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-1-3">
-          <div class="description description-left">
-            <h2>This is the first section</h2>
-            <p>The first column is used for description while the next two columns are merged and used for visualisation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
-          </div>
-        </div>
         <div class="pure-u-2-3">
-          <div id="vis1" class="vis-container"></div>
-        </div>
+          <div class="description description-left">
+            <h2>Fossil Fuels</h2>
+            <p>Fossil fuels include coal, petroleum, natural gas, oil shales, bitumens, tar sands and heavy oils. Fossil fuel power plants burn fossil fuel materials in order to create heat which is in turns used to generate steam which drives turbines generating electricity. </p>
+          </div>
     </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
         <div class="pure-u-2-3">
-          <div id="vis2"  class="vis-container"></div>
+          <div id="vis1"  class="vis-container"></div>
         </div>
         <div class="pure-u-1-3">
-          <div class="description description-right">
-            <h2>This is the second section</h2>
-            <p>Similar to the previous section, but the colum partition is swapped. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Egestas purus viverra accumsan in nisl.</p>
-          </div>
         </div>
       
     </div>
@@ -63,24 +55,28 @@
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-3">
+      <div class="pure-u-2-3">
         <div class="description description-left">
-          <h2>This is the third section</h2>
-          <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Egestas purus viverra accumsan in nisl.</p>
+          <h2>Carbon Dioxide Emissions and GDP</h2>
+          <p>Is there a relationship between Carbon Dioxide Emissions from electricity consumption and the GDP of a country? Use the interactive Continent and Population Selectors to view how this relationship trends for different regions of the world and different populations. </p>
         </div>
       </div>
-      <div class="pure-u-1-3">
-        <div id="vis4"  class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
-        <div id="vis3"  class="vis-container"></div>
-      </div>
-    
     </div>
     <!-- end pure grid group -->
-  
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-2-3">
+        <div id="vis2"  class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    
+  </div>
+  <!-- end pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
+
         <p>This visualisation is created by <a href="https://github.com/KadekSatriadi" target="_blank">Kadek Satriadi</a>. The datasource is <a href="#"" target="_blank">some data repository online</href>.</p>
       </div>
     </div>
@@ -89,10 +85,11 @@
   </div> <!-- end page -->
    
 <script type="text/javascript">
-  var specVis1 = "choropleth_mapElecFossil.json";
-  var specVis2= "choroplet_mapElecHydro.json";
-  var specVis3= "choropleth_mapElecNuclear.json";
-  var specVis4 = "choropleth_mapElecRenewable.json" 
+  var specVis1 = "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/choropleth_mapElecFossil.json";
+  var specVis2= "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/choropleth_mapElecHydro.json";
+  var specVis3= "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/choropleth_mapElecNuclear.json";
+  var specVis4 = "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/choropleth_mapElecRenewable.json";
+  var specVis4 = "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/choropleth_mapElecRenewable.json";  
 
   vegaEmbed('#vis1', specVis1, {"actions": false});
   
