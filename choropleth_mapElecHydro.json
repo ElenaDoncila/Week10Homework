@@ -28,14 +28,14 @@
               "url": "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/Country_data.csv"
             },
             "key": "CountryName",
-            "fields": ["Electricity-fromfossilfuels"]
+            "fields": ["Electricity-fromhydroelectricplants"]
           }
         }
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
         "color": {
-          "field": "Electricity-fromfossilfuels",
+          "field": "Electricity-fromhydroelectricplants",
           "title":"Percent of Total Electricity",
           "type": "quantitative",
           "scale": {
@@ -46,7 +46,7 @@
         },
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "Country"},
-          {"field": "Electricity-fromfossilfuels", "type": "quantitative","title":"Percent of Total Electricity Generated"}
+          {"field": "Electricity-fromhydroelectricplants", "type": "quantitative","title":"Percent of Total Electricity Generated"}
         ]
       }
     }
