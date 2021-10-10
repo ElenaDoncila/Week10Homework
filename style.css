@@ -7,14 +7,14 @@ h1 {
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(174, 177, 151);
 }
 
 .page {
     width: 850px;
-    background-color: white;
+    background-color: rgb(236, 226, 170);
     margin: auto;
-    padding: 50px;
+    padding: 100px;
     padding-top: 35px;
 }
 
