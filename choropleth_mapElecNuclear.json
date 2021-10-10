@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Global Use of Electricty Sourced from Fossil Fuels",
-    "width": 800,
+    "title": "Global Use of Electricty Sourced from Nuclear Fuels",
+    "width": 600,
     "height": 500,
     "data": {
       "url": "https://raw.githubusercontent.com/ElenaDoncila/Week10Homework/main/global.topojson",
